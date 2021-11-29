@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5e5e5e;
+}
+
+#grid-board{
+    display:grid;
+    background-color: #a3a3a3;
+    width: 100vmin;
+    height: 100vmin;
+    grid-auto-columns: 1fr;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+/*.pix{
+    background-color: #94a6ff; 
+    border:2px solid white;
+}
+*/
+#grid-board > div {
+    background-color: #94a6ff; 
+    border:1px solid white
+}
